@@ -7,4 +7,4 @@ Promise.resolve(toBe || !(toBe)).then(() => {
 })
 ```
   
-* ### [/dev/python](https://github.com/lorenzodifuccia/dev/python)
+* ### [/dev/python](https://github.com/lorenzodifuccia/dev/tree/master/python)
