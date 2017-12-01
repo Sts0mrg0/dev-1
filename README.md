@@ -1,6 +1,7 @@
 # *[/dev](https://github.com/lorenzodifuccia/dev)*  
   
 ```javascript
+"use strict";
 let toBe = true;
 Promise.resolve(toBe || !(toBe)).then(() => {
   console.log("A collection of !(useless) things");
