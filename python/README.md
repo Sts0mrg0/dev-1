@@ -15,5 +15,6 @@ A list of useful scripts:
     def my_static_method(x):
       return x
       
+  isinstance(MyClass.my_static_method, staticmethod)  # False, so... 
   isinstance(MyClass.__dict__["my_static_method"], staticmethod)  # True
   ```
