@@ -8,6 +8,6 @@ Promise.resolve(toBe || !(toBe)).then(() => {
 });
 ```
 
-* ### [/dev/js](https://github.com/lorenzodifuccia/dev/tree/master/js#javascript)
-* ### [/dev/python](https://github.com/lorenzodifuccia/dev/tree/master/python#python)
-* ### [/dev/sh](https://github.com/lorenzodifuccia/dev/tree/master/sh#bash)
+  * ### [/dev/js](https://github.com/lorenzodifuccia/dev/tree/master/js#javascript)  
+  * ### [/dev/python](https://github.com/lorenzodifuccia/dev/tree/master/python#python)  
+  * ### [/dev/sh](https://github.com/lorenzodifuccia/dev/tree/master/sh#bash)  
