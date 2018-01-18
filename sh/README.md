@@ -14,6 +14,6 @@ A list of useful scripts:
   ```
 
 * #### cat | clipboard
-```bash
-cat <FILE NAME> | xsel -ib
-```
+  ```bash
+  cat <FILE NAME> | xsel -ib
+  ```
