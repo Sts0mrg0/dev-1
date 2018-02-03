@@ -8,9 +8,12 @@ A list of useful scripts:
   cat <FILE NAME> | xsel -ib
   ```
 
-* #### Download all files from HTTP directory list:
+* #### SSH through Proxy:
   ```bash
-  wget -r -np [-R index.html] [--no-check-certificate] <HOST>
+  # ~/.ssh/config
+  
+  Host *
+	    ProxyCommand  ncat --proxy-type {http|socks4|socks5} --proxy <PROXY IP>:<PROXY PORT> %h %p
   ```
 
 * #### Convert FLAC audio files to MP3 with `ffmpeg`:
