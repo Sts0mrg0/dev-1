@@ -20,3 +20,20 @@ A list of useful scripts:
   ```bash
   ffmpeg -i <AUDIO FILE>.flac -sample_rate 44100 -ab 320k -q:a 0 <AUDIO FILE>.mp3
   ```
+  
+* #### Prompt new terminal in the same directory [`zsh`]:
+  ```bash
+  # ~/.zshrc
+  
+  precmd() {
+    if [[ $PWD = $HOME ]]; then
+        [[ -f "${HOME}/.last_pwd" ]] && cd "$(< ${HOME}/.last_pwd)"
+    fi
+  }
+  
+  chpwd() { eval "$PROMPT_COMMAND" }
+  
+  PROMPT_COMMAND='pwd > "${HOME}/.last_pwd"'
+  ```
+  
+  
