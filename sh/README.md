@@ -3,7 +3,7 @@
 # *Bash*
 A list of useful scripts:  
 
-* #### Pipe `cat` output to Clipboard (Linux):
+* #### [`LINUX`] Pipe `cat` output to Clipboard:
   ```bash
   cat <FILE NAME> | xsel -ib
   ```
@@ -21,7 +21,7 @@ A list of useful scripts:
   ffmpeg -i <AUDIO FILE>.flac -sample_rate 44100 -ab 320k -q:a 0 <AUDIO FILE>.mp3
   ```
   
-* #### [`zsh`] Prompt new terminal in the same directory:
+* #### [`ZSH`] Prompt new terminal in the same directory:
   ```bash
   # ~/.zshrc
   
