@@ -3,7 +3,7 @@
 # *Bash*
 A list of useful scripts:  
 
-* #### [`LINUX`] Pipe `cat` output to Clipboard:
+* #### Pipe `cat` output to Clipboard:
   ```bash
   cat <FILE NAME> | xsel -ib
   ```
