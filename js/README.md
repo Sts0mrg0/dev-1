@@ -10,7 +10,7 @@ A list of useful scripts:
   13 % 12  // 1 (using the *remainder* operator)
   mod(13, 12)  // 1
   
-  // So why you should use the *modulo* operator?
+  // So, why should you use the *modulo* operator?
   -1 % 12  // -1
   mod(-1, 12)  // 11
   ```
