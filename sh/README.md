@@ -21,7 +21,7 @@ A list of useful scripts:
   ffmpeg -i <AUDIO FILE>.flac -sample_rate 44100 -ab 320k -q:a 0 <AUDIO FILE>.mp3
   ```
   
-* #### Prompt new terminal in the same directory [`zsh`]:
+* #### [`zsh`] Prompt new terminal in the same directory:
   ```bash
   # ~/.zshrc
   
